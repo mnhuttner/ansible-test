@@ -4,3 +4,4 @@
     - name: Hello Message
       debug:
         msg: "Hello I am testing ansible-tower ..."
+        msg: "Hello again"
