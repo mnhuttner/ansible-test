@@ -1,0 +1,13 @@
+---
+- hosts: all
+  tasks:
+   - name: Remove Nginx
+     apt: >
+      pkg={{ item }}
+      state=absent
+      purge=yes
+      force=yes
+      autoremove=yes
+     with_items:
+      - nginx
+
