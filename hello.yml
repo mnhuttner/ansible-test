@@ -3,4 +3,4 @@ name: Hello World Sample
   tasks:
     - name: Hello Message
       debug:
-        msg: "Hello this is ansible-tower testing..."
+        msg: "Hello we are testing ansible-tower ..."
