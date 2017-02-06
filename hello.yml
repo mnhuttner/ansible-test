@@ -1,4 +1,4 @@
-- name: Hello World Sample
+- name: Hello World Samples
   hosts: all
   tasks:
     - name: Hello Message
