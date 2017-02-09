@@ -1,1 +1,1 @@
-ansible all -i 'localhost,' -c local -m ping
+ansible all -vvv -i 'localhost,' -c local -m ping
